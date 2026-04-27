@@ -16,7 +16,4 @@ def package_base():
 
 @contextlib.contextmanager
 def redirect_stderr():
-    _stderr = sys.stderr
-    sys.stderr = io.StringIO()
-    yield
-    sys.stderr = _stderr
+    pass
